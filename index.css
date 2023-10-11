@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Regular.ttf');
+}
+
+*{
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+}
+
+.content{
+    overflow-y: auto;
+
+}
+
+.sideNavbar{
+    display: flex;
+    width: 220px;
+    height: 1102px;
+    padding: 32px 12px 0px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+.logo{
+    display: flex;
+    padding: 0px 12px;
+    align-items: center;
+    gap: 21px;
+    align-self: stretch;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.companyName{
+    color: #2F7BEB;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
